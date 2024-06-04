@@ -1,0 +1,14 @@
+{
+    "Servers": {
+      "1": {
+        "Name": "exchange",
+        "Group": "Servers",
+        "Port": 5432,
+        "Username": "itexc_group",
+        "SSLMode": "prefer",
+        "PassFile": "/tmp/pgpassfile",
+        "Host": "itexc_group-db",
+        "MaintenanceDB": "postgres"
+      }
+    }
+  }

@@ -1,0 +1,1 @@
+xdg-open http://$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' itexc_group-pg)
